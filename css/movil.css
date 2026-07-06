@@ -15,14 +15,12 @@
     flex-direction: column;
     gap:20px;
     background-color: var(--blanco);
-    transition: 1.0s; 
 }
 
 .nave a{
     color:var(--negro);
     width:100%;
     border-bottom: 2px solid var(--gris);
-    padding:5px 20px;
 }
 
 
@@ -32,7 +30,6 @@
 
 .abinails{
     width: 80px;
-    border:2px red solid;
 }
 
 .abinails img{
@@ -44,7 +41,6 @@
  .hamburguesa {
     display:flex;
     align-items: center;
-    border: 2px green solid;
 }
 
 
@@ -56,8 +52,37 @@
  .phone {
     display:flex;
     gap:150px;
-    justify-content: space-around;
+    justify-content: space-evenly;
  }
 /*////////////////*/
 
+/*slide///////*/
+.filtro {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 40%;
+  z-index: 2;
+  color:var(--blanco);
+}
+
+.filtro h2{
+  font-size:30px;
+}
+.contenedor_texto_slide {
+   display:flex;
+   flex-direction: row;
+   gap:20px;
+}
+.contactus {
+   display:flex;
+}
+.aboutus {
+   display:flex;
+}
+
+.callbacks_nav {
+  width: 40px;
+}
+/*////////////////*/
 }

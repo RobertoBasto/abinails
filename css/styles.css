@@ -49,9 +49,11 @@ spam {
     flex-direction: row;
     justify-content: space-around;
     padding:10px 100px;
-    border: 2px green solid;
 }
 
+.cuadro {
+    display:none;
+}
 
 .abinails {
     display:flex;
@@ -90,4 +92,130 @@ spam {
 .hamburguesa {
     display:none;
 }
+/*///////////////////////*/
+
+/*slide///////*/
+
+.contenedor_slide {
+    position:relative;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/*  fin */
+
+.callbacks_container {
+  position: relative;
+  margin: auto;
+}
+.callbacks_container img {
+  height: 500px;
+  object-fit: cover;
+}
+.callbacks_container ul {
+  margin: 0px;
+}
+
+.callbacks_nav {
+  position: absolute;
+  bottom: 0;
+  text-transform: translate(-50%, 50%);
+  left: 10%;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 58%;
+  width: 43px;
+  margin-top: -45px;
+}
+.callbacks_nav.next {
+  /* border: 1px yellow solid; */
+  background-position: right top;
+  left: 90%;
+   height: 58%;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: color-mix(in srgb, var(--negro) 50%, transparent);
+}
+
+.filtro {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 40%;
+  z-index: 2;
+  color:var(--blanco);
+}
+.filtro h2{
+  font-size:60px;
+}
+
+
+
+.contactus{
+  color:var(--blanco);
+  background-color: var(--rojo);
+  padding:10px;
+  border-radius: 20px;
+}
+
+ .contactus i{
+    padding:0px 10px;
+ }
+
+ .contactus:hover{
+    background-color: var(--negro);
+    transition: 1.0s;
+ }
+
+.aboutus{
+  color:var(--blanco);
+  background-color: var(--negro);
+  padding:10px;
+  border-radius: 20px;
+}
+.aboutus i{
+    padding:0px 10px;
+ }
+
+ .aboutus:hover{
+    background-color: var(--rojo);
+    transition: 1.0s;
+ }
 /*///////////////////////*/
