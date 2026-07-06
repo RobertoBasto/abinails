@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+  <link rel="stylesheet" href="css/galery.css">
+  <link rel="stylesheet" href="css/galerymovil.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+   <script src="js/responsiveslides.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/funciones.js"></script>
+   <script src="js/fancybox_min.js"></script>
+<title>Abinails</title>
+<body>
+
+    <header>
+    <section class="navegador">
+        <div class="phone">
+          <a href="index.html">
+   <figure class="abinails">
+    <img src="imagenes/logo.jpg" alt="">
+   </figure>
+  </a>
+    <div class="hamburguesa" id="ambur">
+      <i class="fa-solid fa-bars"></i>
+  </div>
+  
+</div>
+   <nav class="nave" id="naves">
+    <a href="index.html">Inicio</a>
+    <a href="services.html">Servicios</a>
+    <a href="galery.html">Galeria</a>
+   </nav>
+     </section>
+    </header>
+
+    <script>$("#ambur").click(function(){
+  $("#naves").toggleClass("active");
+});</script> 

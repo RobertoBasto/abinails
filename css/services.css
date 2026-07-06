@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --negro: #0d152a;
+  --rojo:#f64b5e;
+  --gris:#686969;
+  --blanco:#ffffff;
+  --gris2:#f4f5f7;
+  --formato1:"Roboto", sans-serif;
+  --formato2:"Urbanist", sans-serif;
+}
+
+h1 {
+  font-family: var(--formato1);
+}
+
+h2 {
+  font-family: var(--formato1);
+}
+
+h3{
+  font-family: var(--formato1);
+}
+a{
+    text-decoration: none;
+    font-family:var(--formato2);
+}
+
+button{
+    font-family:var(--formato2);
+}
+
+p {
+    font-family:var(--formato2);
+}
+
+spam {
+    color:var(--naranja);
+}
+
+/*header///////*/
+
+
+.navegador {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px 100px;
+}
+
+.cuadro {
+    display:none;
+}
+
+.abinails {
+    display:flex;
+    width: 20%;
+    align-items: center;
+}
+
+.abinails img{
+    display:flex;
+    width: 60%;
+}
+
+.phone {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nave {
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.nave a{
+    color:var(--negro);
+    font-size: 25px;
+}
+
+
+.nave a:hover {
+   color:var(--rojo);
+   transition:1.0s;
+}
+
+.hamburguesa {
+    display:none;
+}
+/*///////////////////////*/

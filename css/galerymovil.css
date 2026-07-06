@@ -1,0 +1,59 @@
+@media(max-width:431px) {
+
+/*header///////*/
+.navegador {
+    z-index: 99;
+    width: 100%;
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    background-color: var(--blanco);
+}
+.nave {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap:20px;
+    background-color: var(--blanco);
+}
+
+.nave a{
+    color:var(--negro);
+    width:100%;
+    border-bottom: 2px solid var(--gris);
+}
+
+
+.nave.active {
+  display: flex;
+}
+
+.abinails{
+    width: 80px;
+}
+
+.abinails img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ .hamburguesa {
+    display:flex;
+    align-items: center;
+}
+
+
+ .hamburguesa i{
+    color:var(--negro);
+    font-size: 25px;
+ }
+
+ .phone {
+    display:flex;
+    gap:150px;
+    justify-content: space-evenly;
+ }
+/*////////////////*/
+
+}
