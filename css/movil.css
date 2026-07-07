@@ -111,17 +111,6 @@
 /*///////////////////*/
 
 /*//////slide2paralax////////*/
-.frase {
-  position: absolute;
-  top:80px;
-  left:30px;
-  z-index: 2;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap:50px;
-  font-size: 20px;
-}
+
 /*///////////////*/
 }
