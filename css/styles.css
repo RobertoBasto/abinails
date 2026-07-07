@@ -185,14 +185,14 @@ spam {
 .filtro h2{
   font-size:60px;
 }
-
-
-
-.contactus{
-  color:var(--blanco);
-  background-color: var(--rojo);
+.contenedor_texto_slide {
+ color:var(--blanco);
   padding:10px;
-  border-radius: 20px;
+  border-radius: 20px; 
+}
+
+.contenedor_texto_slide .contactus{
+  background-color: var(--rojo);
 }
 
  .contactus i{
@@ -203,19 +203,119 @@ spam {
     background-color: var(--negro);
     transition: 1.0s;
  }
+/*///////////////////////*/
 
-.aboutus{
-  color:var(--blanco);
-  background-color: var(--negro);
-  padding:10px;
-  border-radius: 20px;
+/*///////controlservices////////////*/
+.controlservices {
+    margin:60px 20px;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px;
 }
-.aboutus i{
-    padding:0px 10px;
- }
+.fotounas {
+    display:flex;
+    
+}
 
- .aboutus:hover{
+.imgabout img{
+    height: 500px;
+    width: 800px;
+    border-radius:20px;
+    filter:invert(20%);
+}
+.imgabout:before {
+  content: '';
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  border:10px var(--rojo) solid;
+  border-radius: 20px;
+  top: 2%;
+  left: 1%;
+  z-index: -2;
+}
+
+.textofumigador {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin:40px;
+    justify-content: center;
+}
+.textofumigador h1{
+    text-align: center;
+}
+
+.textofumigador p {
+  text-align: justify;
+}
+.contactus{
     background-color: var(--rojo);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+ }
+ .contactus:hover {
+    background-color: var(--negro);
     transition: 1.0s;
  }
-/*///////////////////////*/
+.contactus i{
+ color:var(--blanco);
+ padding:0px 10px;
+}
+.list {
+    display:flex;
+    gap:30px;
+    flex-direction: column;
+    color:var(--gris);
+}
+.list i{
+    color:var(--naranja);
+}
+/*///////////////////*/
+
+/*//////slide2paralax///*/
+.slide2 figure {
+  position: relative;
+}
+
+
+.slide2 img {
+  width: 100%;
+  height: 395px;
+  object-fit: cover;
+}
+
+.background {
+    top:100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagenes/nails.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--blanco);
+    opacity: 0.6;
+}
+
+.frase {
+  position: absolute;
+  top:200%;
+  left:15%;
+  z-index: 2;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  font-size: 30px;
+}
+.frase h1{
+  color: var(--rojo);
+}
+/*////////////////////*/

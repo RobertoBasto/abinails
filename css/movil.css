@@ -85,4 +85,43 @@
   width: 40px;
 }
 /*////////////////*/
+
+
+/*///////controlservices///////////*/
+.controlservices {
+    flex-direction: column;
+    margin:20px 10px;
+    justify-content: center;
+    gap:20px;
+    border: 6px var(--rojo) solid;
+    border-radius: 20px;
+}
+.fotounas {
+   display:none;
+}
+.contactus {
+   align-items: center;
+}
+.contactus a{
+ background-color: var(--rojo);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+}
+/*///////////////////*/
+
+/*//////slide2paralax////////*/
+.frase {
+  position: absolute;
+  top:175%;
+  left:5%;
+  z-index: 2;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  font-size: 20px;
+}
+/*///////////////*/
 }
