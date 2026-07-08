@@ -277,22 +277,124 @@ spam {
 /*///////////////////*/
 
 /*//////slide2paralax///*/
-.slide2 figure {
-  position: relative;
+.slide2 {
+      position: relative;
+      width: 100%;
+      height: 400px; 
+      overflow: hidden;
+      margin: 40px 0; 
+    }
+    .slide2 figure {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    .slide2 img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .slide2 .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("imagenes/nails.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 2;
+    }
+
+    .slide2 figure {
+      position: relative;
+    }
+  
+    .productos {
+      margin-top: 60px;
+    }
+/*////////////////////*/
+
+/*///////productos////////////*/
+.productos {
+    margin:60px 20px;
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+}
+.fotonails {
+    display:flex;
+    
 }
 
-.background {
-    top:100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    background-image: url("../imagenes/nails.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: var(--blanco);
-    opacity: 0.8;
+.imgapro img{
+    height: 500px;
+    width: 700px;
+    border-radius:20px;
+    filter:invert(20%);
 }
-/*////////////////////*/
+.imgapro:before {
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  border:10px var(--rojo) solid;
+  border-radius: 20px;
+  top: 2%;
+  left: 50%;
+  z-index: -2;
+}
+.list2 {
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: space-around;
+  margin:20px;
+}
+.pro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:20px;
+}
+.pro h3{
+  font-size: 30px;
+}
+.pro p{
+  font-size: 25px;
+}
+.textoproducto {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.textoproducto h1{
+    text-align: center;
+}
+
+.textoproducto p {
+  text-align: justify;
+}
+.contactus{
+    background-color: var(--rojo);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+ }
+ .contactus:hover {
+    background-color: var(--negro);
+    transition: 1.0s;
+ }
+.contactus i{
+ color:var(--blanco);
+ padding:0px 10px;
+}
+/*///////////////////*/

@@ -111,6 +111,29 @@
 /*///////////////////*/
 
 /*//////slide2paralax////////*/
-
+.slide2 {
+        height: 250px;
+        margin: 20px 0;
+      }
+      .slide2 .background {
+        background-attachment: scroll; /* en móvil mejor scroll para no consumir recursos */
+      }
 /*///////////////*/
+
+/*///////productos///////////*/
+.fotonails {
+   display:none;
+}
+.productos {
+    margin:20px;
+}
+.list2 {
+   flex-direction: column;
+   padding:20px;
+    justify-content: center;
+    gap:20px;
+    border: 6px var(--rojo) solid;
+    border-radius: 20px;
+}
+/*///////////////////*/
 }
