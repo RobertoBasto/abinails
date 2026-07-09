@@ -136,4 +136,17 @@
     border-radius: 20px;
 }
 /*///////////////////*/
+
+/*/////footer////////*/
+footer {
+  flex-direction: column;
+  gap:50px;
+}
+.textofooter {
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  color:var(--blanco);
+}
+/*///////////////////*/
 }

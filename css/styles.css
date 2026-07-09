@@ -9,7 +9,7 @@
   --gris:#686969;
   --blanco:#ffffff;
   --gris2:#f4f5f7;
-  --formato1:"Roboto", sans-serif;
+  --formato1:"Urbanist", sans-serif;
   --formato2:"Urbanist", sans-serif;
 }
 
@@ -269,7 +269,7 @@ spam {
     display:flex;
     gap:30px;
     flex-direction: column;
-    color:var(--gris);
+    color:var(--negro);
 }
 .list i{
     color:var(--naranja);
@@ -396,5 +396,37 @@ spam {
 .contactus i{
  color:var(--blanco);
  padding:0px 10px;
+}
+/*///////////////////*/
+
+/*/////footer////////*/
+footer {
+  display:flex;
+  justify-content: space-around;
+  background-color: var(--rojo);
+  align-items: center;
+  padding:20px;
+}
+.textofooter {
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  color:var(--blanco);
+}
+.logosfooter {
+  display: flex;
+  text-align: center;
+  gap:35px;
+}
+.logosfooter a{
+  font-size: 25px;
+  color:var(--blanco);
+}
+.logosfooter a:hover {
+  color:var(--rojo);
+  background-color: var(--blanco);
+  padding:12px;
+  border-radius: 20px;
+  transition: 0.8s;
 }
 /*///////////////////*/
