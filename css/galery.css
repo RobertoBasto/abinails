@@ -93,3 +93,35 @@ spam {
     display:none;
 }
 /*///////////////////////*/
+
+/*/////footer////////*/
+footer {
+  display:flex;
+  justify-content: space-around;
+  background-color: var(--rojo);
+  align-items: center;
+  padding:20px;
+}
+.textofooter {
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  color:var(--blanco);
+}
+.logosfooter {
+  display: flex;
+  text-align: center;
+  gap:35px;
+}
+.logosfooter a{
+  font-size: 25px;
+  color:var(--blanco);
+}
+.logosfooter a:hover {
+  color:var(--rojo);
+  background-color: var(--blanco);
+  padding:12px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+/*///////////////////*/

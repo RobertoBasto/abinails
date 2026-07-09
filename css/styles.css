@@ -430,3 +430,25 @@ footer {
   transition: 0.8s;
 }
 /*///////////////////*/
+
+/*flecha/////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--rojo);
+    padding:10px;
+
+}
+/*///////////////*/
