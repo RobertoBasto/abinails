@@ -73,7 +73,9 @@
 .contenidoacordeon {
     flex-direction: column-reverse;
 }
-
+.textoacordeon p{
+    font-size: 12px;
+}
 /*////////////////////*/
 
 /*/////footer////////*/
