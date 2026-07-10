@@ -56,6 +56,38 @@
  }
 /*////////////////*/
 
+/*/////Gallery/////////////*/
+.galeria {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blanco);
+  padding:80px 0px;
+  margin: 20px;
+}
+
+
+.fotos {
+    display:grid;
+    margin:10px 0px;
+    grid-template-areas: "fot1" 
+                        "fot2" 
+                         "fot3" 
+                         "fot4"
+                         "fot5"
+                         "fot6"
+                         "fot7"
+                         "fot8"
+                         "fot9"
+                         "fot10"
+                         "fot11"
+                         "fot12"
+                         "fot13"
+                         "fot14"
+                         "fot15"
+                         "fot16";
+}
+/*/////////////////////////////*/
 
 /*/////footer////////*/
 footer {

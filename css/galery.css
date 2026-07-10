@@ -94,6 +94,91 @@ spam {
 }
 /*///////////////////////*/
 
+/*///////slide///////////*/
+.slide {
+  display:flex;
+  flex-direction: row;
+  background-color: var(--negro);
+  padding:20px;
+}
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+}
+.breadcrumb i{
+  color:var(--blanco);
+}
+.breadcrumb p{
+  color:var(--blanco);
+}
+.breadcrumb a{
+  color:var(--blanco);
+}
+.breadcrumb a:hover{
+  color:var(--rojo);
+  transition: 0.8s;
+}
+/*//////////////////*/
+
+/*/////Gallery/////////////*/
+.galeria {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blanco);
+  padding:60px 0px;
+}
+.fotos img {
+    width: 350px;
+    height: 400px;
+    display:block;
+    object-fit: cover;
+    padding:20px;
+}
+
+.fot1 {
+    grid-area: fot1;
+}
+
+.fot2 {
+    grid-area: fot2;
+}
+
+.fot3 {
+    grid-area: fot3;
+}
+
+.fot4 {
+    grid-area: fot4;
+}
+
+.fot5 {
+    grid-area: fot5;
+}
+
+.fot6 {
+    grid-area: fot6;
+}
+
+.fot7 {
+    grid-area: fot7;
+}
+
+.fot8 {
+    grid-area: fot8;
+}
+
+.fotos {
+    align-items: center;
+    display:grid;
+    grid-template-areas: "fot1 fot2 fot3 fot4" 
+                         "fot5 fot6 fot7 fot8"
+                         "fot9 fot10 fot11 fot12"
+                         "fot13 fot14 fot15 fot16";
+}
+/*/////////////////////////*/
+
 /*/////footer////////*/
 footer {
   display:flex;
@@ -125,3 +210,25 @@ footer {
   transition: 0.8s;
 }
 /*///////////////////*/
+
+/*flecha/////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--rojo);
+    padding:10px;
+
+}
+/*///////////////*/
