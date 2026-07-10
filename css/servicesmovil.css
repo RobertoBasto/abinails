@@ -56,6 +56,25 @@
  }
 /*////////////////*/
 
+/*///////acordeon///////////*/
+
+.cont_acordeon {
+    margin:20px 0px;
+    display:grid;
+    grid-template-areas: "acordeon1" 
+                           "acordeon2"
+                          "acordeon3" 
+                          "acordeon4"            
+                          "acordeon5" 
+                          "acordeon6"; 
+                         
+}
+
+.contenidoacordeon {
+    flex-direction: column-reverse;
+}
+
+/*////////////////////*/
 
 /*/////footer////////*/
 footer {

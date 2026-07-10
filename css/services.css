@@ -94,6 +94,133 @@ spam {
 }
 /*///////////////////////*/
 
+/*///////slide///////////*/
+.slide {
+  display:flex;
+  flex-direction: row;
+  background-color: var(--negro);
+  padding:20px;
+}
+.breadcrumb {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+}
+.breadcrumb i{
+  color:var(--blanco);
+}
+.breadcrumb p{
+  color:var(--blanco);
+}
+.breadcrumb a{
+  color:var(--blanco);
+}
+.breadcrumb a:hover{
+  color:var(--rojo);
+  transition: 0.8s;
+}
+/*//////////////////*/
+
+/*///////acordeon///////////*/
+
+.acordeon1 {
+    grid-area: acordeon1;
+}
+
+.acordeon2 {
+    grid-area: acordeon2;
+}
+
+.acordeon3 {
+    grid-area: acordeon3;
+}
+
+.acordeon4 {
+    grid-area: acordeon4;
+}
+
+.acordeon5 {
+    grid-area: acordeon5;
+}
+
+.acordeon6 {
+    grid-area: acordeon6;
+}
+
+.cont_acordeon {
+    display:grid;
+    grid-template-areas: "acordeon1 acordeon2"
+                          "acordeon3 acordeon4"            
+                          "acordeon5 acordeon6"; 
+                         
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.margen{
+    padding: 30px;
+}
+
+.caja1sub1{
+    border: 3px var(--rojo) solid;
+    border-radius: 20px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.acor {
+    font-size: 20px;
+    padding-left: 5px;
+}
+.acor i{
+    color: var(--blanco);
+    background-color: var(--rojo);
+    border-radius: 50%;
+    padding:10px;
+}
+
+
+.caja1sub2{
+    border: 3px var(--rojo) solid;
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+    margin:10px 0px;
+}
+
+.contenidoacordeon {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenidoacordeon img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+}
+.textoacordeon p{
+    padding:5px;
+    color:var(--negro);
+    margin:20px;
+    text-align: justify;
+}
+.rotar{
+    transform: rotate(180deg);
+    
+}
+/*////////////////////*/
+
 
 /*/////footer////////*/
 footer {
@@ -126,3 +253,25 @@ footer {
   transition: 0.8s;
 }
 /*///////////////////*/
+
+/*flecha/////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--rojo);
+    padding:10px;
+
+}
+/*///////////////*/
